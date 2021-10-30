@@ -1,11 +1,6 @@
 import { mongoose} from "../database/mongodb";
 
 const AlterarDataSchema = new mongoose.Schema({
-        id: {
-            type: uuid,
-            required: true,
-            
-        }
         nome: {
             type: String,
             required: true
